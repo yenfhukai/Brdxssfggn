@@ -3,7 +3,7 @@ name: Deploy
 on:  
   workflow_dispatch:
   schedule:
-  - cron: '30 11 * * *'  #every day at 5:00 pm IST
+  - cron: '0 23 * * *'  #every day at 4:30 am IST
 
 jobs:
   deploy:
